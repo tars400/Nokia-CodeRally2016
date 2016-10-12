@@ -2,7 +2,7 @@
 
 Nokia CodeRally 2016- Programming questions and solutions.
 
-1.Milly and her home
+1).Milly and her home
 
 Milly is playing a famous game in a straight road where she will start from 0th location and she can move forward or backwards. She will start with 1 step and then she will always move 1 step more than the last moved steps. This straight road has infinite number of positions from negative to positive. Her home is located at Lth position. Your task is to tell her the minimum number of moves she must try to reach her home from 0th location.
 
@@ -18,6 +18,7 @@ For every test case, print the required answer in a new line.
 Constraints
 
 1 ≤ T ≤ 1000
+
 -109 ≤ L ≤ 109
 
 Sample Input
@@ -29,7 +30,12 @@ Sample Output
 2
 3
 
-2. Navi's Party
+Explanation
+Test case #1: Go to x = 1 by 1 step and then go to x = 3 by 2 steps.
+Test case #2: Go to x = 1 by 1 step then move backwards by 2 steps to reach x = -1 and then move forward by 3 steps via 0 to reach x = 
+
+
+2). Navi's Party
 
 Navi's party is going on and there are many people that are in this party. Navi is very busy in attending his guests. He has no time to check if there is any non-invited guest or not. You are required to help him.
 
