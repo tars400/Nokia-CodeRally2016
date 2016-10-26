@@ -73,4 +73,48 @@ Explanation
 You are required to check the persons with having age = 19 and name = Vipul
 
 
-Questions and solutions will be updated soon
+3). Rhezo and Divisibility by 7
+
+He has a big number of N digits and Q questions. In each of the question, he wants to find if the number formed by the string between indices Li and Ri is divisible by 7 or not. As he is very weak at programming, you should help him in this task.
+
+Input:
+First line contains the number consisting of N digits. Next line contains Q, denoting the number of questions. Each of the next Q lines contains 2 integers Li and Ri.
+
+Output:
+For each question, print "YES" or "NO", if the number formed by the string between indices Li and Ri is divisible by 7.
+
+Constraints:
+1 ≤N ≤ 10^5
+1 ≤ Q ≤ 10^5
+1 ≤ Li,Ri ≤ N
+
+SAMPLE INPUT
+357753
+3
+1 2
+2 3
+4 4
+
+SAMPLE OUTPUT
+YES
+NO
+YES
+
+
+4. Yu-eS Counting Arrays.
+
+Yu and eS, the two brothers, have come home after a very long and tiring journey. The younger brother eS is still full of energy and wants to play with Yu. Yu is totally exhausted and wants some sleep. In no mood to play, Yu agrees to play only if eS solves the following problem. Yu gives eS two integers N and M. He asks eS to consider an array A containing N elements with each element being a positive integer ≤M. Yu further goes on by defining a function F(k) = Number of such arrays A with exactly K distinct elements. He asks eS to calculate F(K) ∀ k∈[1..M].
+
+After giving him a devilish grin, Yu went back to sleep. eS realized that it would take him a millennia to count the number of arrays. Can you help the poor lad to have some playtime with his indolent brother.
+
+INPUT
+The first line contains two space separated integers N and M.
+
+OUTPUT
+Print M space separated integers F(1) F(2) … F(M). Since the values can be quite large print them modulo 10^9+7.
+
+SAMPLE INPUT
+3 2
+
+SAMPLE OUTPUT
+2 6 
