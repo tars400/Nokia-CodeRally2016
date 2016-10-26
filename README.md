@@ -57,7 +57,7 @@ Constraints
 1 ≤ |Name| ≤ 50
 Here | | denotes a length of the string and characters in this string ∈ {a, b, c ..., z}.
 
-SAMPLE INPUT 
+Sample Input 
 2 4
 pranjul
 sachin
@@ -66,7 +66,7 @@ sachin
 pranjul
 vipul
 
-SAMPLE OUTPUT 
+Sample Output
 2
 
 Explanation
@@ -88,14 +88,14 @@ Constraints:
 1 ≤ Q ≤ 10^5
 1 ≤ Li,Ri ≤ N
 
-SAMPLE INPUT
+Sample Input
 357753
 3
 1 2
 2 3
 4 4
 
-SAMPLE OUTPUT
+Sample Output
 YES
 NO
 YES
@@ -113,8 +113,8 @@ The first line contains two space separated integers N and M.
 OUTPUT
 Print M space separated integers F(1) F(2) … F(M). Since the values can be quite large print them modulo 10^9+7.
 
-SAMPLE INPUT
+Sample Input
 3 2
 
-SAMPLE OUTPUT
+Sample Output
 2 6 
