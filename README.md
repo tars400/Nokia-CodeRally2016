@@ -99,7 +99,7 @@ YES
 For the first query, number will be 35 which is clearly divisible by 7.
 
 
-4. Yu-eS Counting Arrays.
+4)Yu-eS Counting Arrays.
 
 Yu and eS, the two brothers, have come home after a very long and tiring journey. The younger brother eS is still full of energy and wants to play with Yu. Yu is totally exhausted and wants some sleep. In no mood to play, Yu agrees to play only if eS solves the following problem. Yu gives eS two integers N and M. He asks eS to consider an array A containing N elements with each element being a positive integer ≤M. Yu further goes on by defining a function F(k) = Number of such arrays A with exactly K distinct elements. He asks eS to calculate F(K) ∀ k∈[1..M].
 
