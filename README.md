@@ -166,7 +166,7 @@ Constraints:
 
     All strings are composed only of '0' - '9' .
     
-# 5) Illay and Tree
+# 5) Illya and Tree
 
 Illya likes graphs a lot. His favourite type of graph is tree. Illya invented many problems with it, but he can't solve them. He asked you to solve one of them.
 
