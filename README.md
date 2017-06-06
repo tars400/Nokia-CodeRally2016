@@ -165,3 +165,56 @@ Constraints:
     Sum of Lengths of all Query Strings <= 106
 
     All strings are composed only of '0' - '9' .
+    
+# 5) Illay and Tree
+
+Illya likes graphs a lot. His favourite type of graph is tree. Illya invented many problems with it, but he can't solve them. He asked you to solve one of them.
+
+You are given a weighted tree T with 
+    
+    n
+    n nodes. The tree is rooted at node 1. You are also given 
+    q
+    q queries to it. Queries can be one of two types:
+
+    1 i z - change the weight of i-th edge to z.
+
+    2 v - find the maximum distance between two distinct nodes in the subtree of node v
+    
+Input:
+
+    The first line of input contains two integers n and q. The next n-1 lines contain three integers x, y, z, denoting an undirected edge from x to y with weight z. Next q lines contains queries as described above.
+
+Output:
+
+    For each query of 2nd type output answer for it in a single line.
+
+Constraints:
+
+    1 ≤ n, q ≤ 105
+    1 ≤ x, y, v ≤ n
+    1 ≤ i ≤ n-1
+    1 ≤ z ≤ 109
+
+SAMPLE INPUT    
+    
+    5 5
+    1 2 1
+    1 3 2
+    2 4 2
+    2 5 3
+    2 1
+    2 2
+    2 3
+    2 4
+    2 5
+SAMPLE OUTPUT 
+    
+    6
+    5
+    0
+    0
+    0
+Explanation
+        
+        For the 1st query we can choose nodes 3 and 5, answer is 6. For the 2nd query we can choose nodes 4 and 5, answer is 5. For other queries answer is 0.
